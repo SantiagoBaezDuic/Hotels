@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Glory", sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgb(56, 4, 119) 0%, rgb(108, 4, 168) 100%);
+  height: 300px;
+  color: white;
+  font-family: "Glory", sans-serif;
+}
+
+.filtros-container {
+  box-sizing: border-box;
+  background-color: black;
+  height: 45px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding: 8px 0;
+}
+
+.filter-text {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-family: "Glory", sans-serif;
+  font-weight: bold;
+}
+
+.boton-limpiar {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.boton-limpiar:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.hoteles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 650px;
+  border: solid grey 0.5px;
+  padding: 10px;
+  border-radius: 13px;
+  justify-content: center;
+  box-shadow: 0px 0px 12px grey;
+  margin: 25px 0;
+}
+
+.espaciador {
+  background-color: rgba(0, 0, 0, 0.562);
+  height: 1px;
+  width: 80%;
+}
+
+.card-title {
+  text-align: center;
+  width: 100%;
+  font-size: 28px;
+  font-family: "Glory", sans-serif;
+  font-weight: bold;
+}
+
+.tags {
+  background-color: #8e57d4;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin: 0 2px;
+  color: white;
+  height: 23px;
+  font-family: "Glory", sans-serif;
+  box-shadow: 0px 0px 3px grey;
+}
+
+.texto-descriptivo {
+  margin: 15px 0;
+  font-family: "Glory", sans-serif;
+  padding: 0 15px;
+}
+
+.boton-reserva {
+  background-color: #8e57d4;
+  color: white;
+  border-radius: 7px;
+}
+
+.boton-reserva:hover {
+  background-color: #552a8d;
+}
+
+.alerta-ninguno {
+  margin-top: 180px;
+}
+
+.alerta-malselec {
+  color: red;
+  font-weight: 800;
+}
